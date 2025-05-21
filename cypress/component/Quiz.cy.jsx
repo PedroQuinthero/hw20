@@ -45,4 +45,4 @@ describe('Quiz Component', () => {
     cy.get('.card').should('be.visible');
     cy.get('h2').should('not.be.empty');
   });
-});
+}); //commenting for testing
