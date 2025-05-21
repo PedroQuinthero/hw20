@@ -1,20 +1,15 @@
 {
   "extends": "../tsconfig.json",
   "compilerOptions": {
-    "target": "ES2020",
-    "lib": ["ES2020", "DOM"],
-    "types": ["cypress", "node", "@testing-library/cypress"],
-    "isolatedModules": false,
-    "noEmit": true,
-    "composite": true,
-    "jsx": "react-jsx",
-    "strict": true
+    "types": ["cypress"],
+    "outDir": "../dist-cypress"
   },
   "include": [
-    "**/*.tsx",
-    "**/*.ts",
-    "**/*.js",
-    "**/*.jsx",
-    "../client/src/**/*"
+    "./e2e/**/*.ts",
+    "./support/**/*.ts"
+  ],
+  "exclude": [
+    "../dist",
+    "../node_modules"
   ]
 }
