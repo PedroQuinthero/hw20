@@ -82,6 +82,11 @@ cypress/    # Cypress tests
 2. Click Start Quiz
 3. Answer coding questions pulled from the database
 
+## 📘 CI/CD Tutorial
+
+See the [ci-cd-tutorial.md](./ci-cd-tutorial.md) file for full documentation of the pipeline setup.
+
+
 ---
 
 ## 🧑‍💻 Author
